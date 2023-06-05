@@ -1,0 +1,178 @@
+@import '../font/raleway/stylesheet.css';
+
+.prev-slide{    width: 30px;
+    height: 30px;
+    background-image: url(../images/chevron-back-circle-outline.svg);
+    background-size: cover;
+    filter: invert(1);
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    z-index: 999999;
+}
+.next-slide{
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/chevron-forward-circle-outline.svg);
+    background-size: cover;
+    filter: invert(1);
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    z-index: 999999;
+}
+@media only screen and (max-width: 1024px){
+    /*Banners*/
+    .texto_carusel {
+        top:20%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    /*MENU*/
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13pt;
+    }
+    /*Banners*/
+    .texto_carusel {
+        top:10%;
+    }
+    .texto_carusel h1{
+       font-size: 15pt;
+    }
+    .texto_carusel h4{
+        font-size: 12pt;
+     }
+     .texto_carusel span{
+        font-size: 10pt;
+     }
+    /*Servicios*/
+    .texto_servicios{top: 31%;
+        padding: 5px;}
+    .texto_servicios h3{font-size: 15pt;}
+}
+
+@media only screen and (max-width: 479px){
+    /*MENU*/
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 20pt;
+    }
+    /*Banners*/
+    .texto_carusel{padding: 0;}
+    /*servicios*/
+    .texto_servicios h3 {
+        font-size: 25pt;
+    }
+    .texto_servicios{
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    /*Banners*/
+    .prev-slide{top: 10%;}
+    .next-slide{top: 10%;}
+
+    .texto_carusel{text-align: center;position: relative;padding: 20px;left: initial;}
+    .texto_carusel h1{
+        color: black;
+     }
+     .texto_carusel h4{
+        color: black;
+      }
+      .texto_carusel span{
+        color: black;
+      }
+}
+
+@media only screen and (max-width: 375px){
+
+}
+
+@media only screen and (max-width: 320px){
+
+}
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+}
